@@ -1,0 +1,127 @@
+{
+  "entries": [
+    {
+      "id": 1,
+      "day": "Monday",
+      "blurb": "Moody Mondays",
+      "entry": "I tried to be happy that I was at work. But I forgot my lunch. I hate it.",
+      "quiz": 9,
+      "date": "2022-04-28"
+    },
+    {
+      "id": 2,
+      "day": "Monday Night",
+      "blurb": "Moody Mondays Part 2",
+      "entry": "Really Sucks today...",
+      "quiz": 5,
+      "date": "2022-04-29"
+    },
+    {
+      "id": 3,
+      "day": "Tuesday",
+      "blurb": "Trippy Tuesday",
+      "entry": "I woke up this morning ready to take on the day. I went to the bathroom and saw that my cat has started messing with the toilet paper again.",
+      "quiz": 15,
+      "date": "2022-04-30"
+    },
+    {
+      "id": 4,
+      "day": "Tuesday Night",
+      "blurb": "Trippy Tuesday Part 2",
+      "entry": "Work was great! My boss bought us lunch and everybody was excited. I got all of my work done and was able to leave work on time",
+      "quiz": 25,
+      "date": "2022-05-01"
+    },
+    {
+      "id": 5,
+      "day": "Wednesday",
+      "blurb": "Wow Wednesday",
+      "entry": "I was able to make time for yoga and meditation, which I was very proud of.",
+      "quiz": 25,
+      "date": "2022-05-02"
+    },
+    {
+      "id": 6,
+      "day": "Wednesday Night",
+      "blurb": "Wow Wednesday Part 2",
+      "entry": "I spoke to an old friend from high school who just had a baby that look like Eddie Murphy.",
+      "quiz": 20,
+      "date": "2022-05-03"
+    },
+    {
+      "id": 7,
+      "day": "Thursday",
+      "blurb": "Thankful Thursday",
+      "entry": "My co-worker and I presented our projects to the Director of the company on ways to improve the company. He was very proud. ",
+      "quiz": 19,
+      "date": "2022-05-04"
+    },
+    {
+      "id": 8,
+      "day": "Thursday Night",
+      "blurb": "Thankful Thursday Part 2",
+      "entry": "I spoke to my parents for 3 1/2 hours today. It was a very pleasant conversation. ",
+      "quiz": 22,
+      "date": "2022-05-05"
+    },
+    {
+      "id": 9,
+      "day": "Friday",
+      "blurb": "Freaky Friday",
+      "entry": "I woke up this morning, feeling great. It's Friday, less work, more fun. ",
+      "quiz": 15,
+      "date": "2022-05-06"
+    },
+    {
+      "id": 10,
+      "day": "Friday Night",
+      "blurb": "Freaky Friday Part 2",
+      "entry": "I met my friends downtown to have fun in the city. It was needed and we danced the night away. ",
+      "quiz": 23,
+      "date": "2022-05-07"
+    },
+    {
+      "id": 11,
+      "day": "Saturday",
+      "blurb": "Stable Saturday",
+      "entry": "I woke up with the worst hangover in the morning. I am out of cofee. Rent is due. I have to go the grocery store.",
+      "quiz": 8,
+      "date": "2022-05-08"
+    },
+    {
+      "id": 12,
+      "day": "Saturday Night",
+      "blurb": "Stable Saturday Part 2",
+      "entry": "I went to the grocery store, played with my cat, wrote a lot in my journal, and caught up on my TV shows. ",
+      "quiz": 20,
+      "date": "2022-05-09"
+    },
+    {
+      "id": 13,
+      "day": "Sunday",
+      "blurb": "Sweet Sunday",
+      "entry": "I was able to do yoga and meditate this morning. I met my parents for brunch today. We laughed and hugged very much. ",
+      "quiz": 21,
+      "date": "2022-05-10"
+    },
+    {
+      "id": 14,
+      "day": "Sunday Night",
+      "blurb": "Sweet Sunday Part 2",
+      "entry": "My friend came over for a playdate with her dog. We binged watch movies, drank wine, and talked about what was happening in our lives. ",
+      "quiz": 16,
+      "date": "2022-05-11"
+    },
+    {
+      "date": "2022-05-13",
+      "quiz": 25,
+      "id": 15
+    },
+    {
+      "blurb": "Fun Friday",
+      "day": "Friday",
+      "entry": "Feeling good",
+      "id": 16
+    }
+  ]
+}

@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<header>
+  <meta charset="UTF-8" />
+  <title>Feelings on Deck</title>
+
+  <link rel="stylesheet" href="./moods.css" />
+</header>
+
+<body>
+
+  <ul id="navigation">
+    <li id="nav"><a href="#daily-words">Daily Dose</a></li>
+    <li id="nav"><a href="#quizlet">Quick Quiz</a></li>
+    <li id="nav"><a href="#mood-entry">New Note</a></li>
+    <li id="nav"><a href="#past-posts">Past Posts</a></li>
+    <li id="nav"><a href="#about">The Team</a></li>
+    <li id="nav" style="float:right"><a href="#mood">.mood</a></li>
+  </ul>
+
+
+  <section id="mood"> 
+    <h1 class="big-title">.mood</h1>
+    <h2 class="welcome-title">Hi, there! How are you today?</h2>
+    <p class="welcome-message">Welcome back to your daily mood tracker. We hope you have had a great day, good moment,
+      or not! That's completly fine too. Emotions are never what we expect them to be, and life is full of different
+      kinds of emotions. Never be afraid to feel.</p>
+      <br></br>
+      <img class="welcome" src="eyes_mood0.png" />
+  </section>
+
+  <section id="daily-words">
+    <h2 class="quote">Words to live by. Or not...</h2>
+
+    <div class="words-inspo">
+      <p class="quote-1" id="quotes-1"></p>
+      <p class="quote-2" id="quotes-2"></p>
+      <p class="quote-3" id="quotes-3"></p>
+    </div>
+    <div class="emotional-damage">
+      <h3>One Daily Deed</h3>
+      <div class="face-one">
+        <p>Change someone's outlook on life today. Careful! You don't want to overwhelm them.</p>
+        <img src="emoji_a.png" id="emojiPic1">
+  <div class="clear"></div>
+  <button type="button" class="buttonround faceButt" onclick="emojiClicker()" id="emojiOne" value="Change">Compliment
+      them!</button>
+  <div class="clear"></div>
+  <audio id="audio-yay" src="C:\Users\jesse\Downloads\yayyyy.mp3">
+  </audio>
+  <div class="clear"></div>
+  <img src="emoji_b.png" id="emojiPic2">
+  <div class="clear"></div>
+  <button type="button" class="buttonround faceButt" onclick="emojiClicker2()" id="emojiTwo" value="Change">Compliment
+      them!</button>
+  <div class="clear"></div>
+  <audio id="audio-aww" src="C:\Users\jesse\Downloads\Aww_Sound_Effect_(getmp3.pro).mp3">
+  </audio>
+  <div class="clear"></div>
+      </div>
+  </section>
+
+  <section id="quizlet">
+    <div id="assessment-pt1">
+      <h2>Let's take a quick assessment?</h2>
+      <p>Remind yourself to practice a tiny bit of mindfulness. Reflect upon what you did today and how you feel. If you
+        want to skip this, remember that you'd probably spend longer waiting in line for Starbucks or McDonalds.
+        Remember you can't live on chikn nuggies alone!</p>
+      <h3>Assessment rules:</h3>
+      <div class="clear"></div>
+      <ol class="quiz-rules">
+        <li id="ass-rules">Take a second to contemplate each question.</li>
+        <li id="ass-rules">Give yourself a number rating between 1 and 5 for each question.</li>
+        <li id="ass-rules">Add up your total and log it below.</li>
+      </ol>
+    </div>
+
+    <div class="carousel-wrapper">
+      <span id="item-1"></span>
+      <span id="item-2"></span>
+      <span id="item-3"></span>
+      <span id="item-4"></span>
+      <span id="item-5"></span>
+    
+      <div class="carousel-item item-1">
+        <h2>Question 1: How are you feeling today?</h2>
+        <p>1 can be the lowest of the low today. That's fine. We all go there sometimes.
+        <p>2 is you are okay, but just barely.</p>
+        <p>3 is meh. Not good, and not bad.</p>
+        <p>4 is pretty darn good! You can keep this up all day. </p>
+        <p>5 is you are good vibes all the way.</p>
+   
+        <a class="arrow arrow-prev" href="#item-5"></a>
+        <a class="arrow arrow-next" href="#item-2"></a>
+      </div>
+    
+      <div class="carousel-item item-2">
+        <h2>Question 2: Did you drink enough water today?</h2>
+        <p>1 is you didn't have anything. </p>
+        <p>2 is maybe a glass or two. </p>
+        <p>3 is almost there, but not quite.</p>
+        <p>4 is one more glass and you'll be good for the day.</p>
+        <p>5 is you've hydrated well and then some.</p>
+       
+        <a class="arrow arrow-prev" href="#item-1"></a>
+        <a class="arrow arrow-next" href="#item-3"></a>
+      </div>
+    
+      <div class="carousel-item item-3">
+        <h2>Question 3: Are you feeling anxious?</h2>
+        <p>1 is yes. Everything right now is making you anxious.</p>
+        <p>2 is able to have calm thoughts, but you might go right back into being anxious.</p>
+        <p>3 is nothing. No anxiety right now, but it can flaired up.</p>
+        <p>4 is you are in a good place, but not 100% anxiety free.</p>
+        <p>5 is worry free and anxiety free.</p>
+        
+        <a class="arrow arrow-prev" href="#item-2"></a>
+        <a class="arrow arrow-next" href="#item-4"></a>
+      </div>
+    
+      <div class="carousel-item item-4">
+        <h2>Question 4: Is there something to be happy about?</h2>
+        <p>1 is a big fat no. There's nothing to be happy about today.</p>
+        <p>2 is you've smiled at least. A genuine smile for a fleeting moment.</p>
+        <p>3 is yeah. You are content and happy, but it can change.</p>
+        <p>4 is almost there. Smiles and love can be felt all around if you just look.</p>
+        <p>5 is jolly and jovial. Everything is joyous! There are plenty of things to be thankful for!</p>
+        <a class="arrow arrow-prev" href="#item-3"></a>
+        <a class="arrow arrow-next" href="#item-5"></a>
+      </div>
+      <div class="carousel-item item-5">
+        <h2>Question 5: How angry have you been?</h2>
+        <p>1 is very irritable. Everything seems to make you upset or angry. You've yelled or screamed today.
+        <p>2 is mostly annoyed. Not constantly angry, but you can be easily upset. </p>
+        <p>3 is neither here nor there. Anger is a fleeting feeling. </p>
+        <p>4 is content. You can get mad, but not with out reason. </p>
+        <p>5 is very zen. No anger here!</p>
+        <a class="arrow arrow-prev" href="#item-4"></a>
+        <a class="arrow arrow-next" href="#item-1"></a>
+      </div>
+
+    </div>
+    <br></br>
+    <form action="entry" method="post" id="assScore">
+    <p>Time to Score!</p>
+    <div id="scoring">
+      <label for="asses">Assessment Score</label>
+      <input type="number" for="quiz-score" id="score" max = '25' placeholder="Don't lie here. You'll only lie to yourself!" />
+      <label for="start">Assessment date:</label>
+      <input type="date" id="start" name="trip-start" value="2022-05-01" min="2018-01-01" max="2099-12-31">
+      <button type="submit" class="buttonround" id="log-button">Submit Score</button>
+      <audio id="audio-Wow" src="C:\Users\jesse\Downloads\sound fx\sound fx\wow.mp3"></audio>
+      <div id="pastQuizes"></div>
+      <div class="clear"></div>
+    </div>
+    </form>
+  </section>
+
+    <section id="mood-entry">
+      <h2 class="deets">Deets. We need the deets.</h2>
+      <p>Remember that this your mood memo. It is a way for you to jot down what you are feeling in this moment. You don't have to think about if it is right or if it is wrong. Feelings are just that. Feelings. The only wrong here is if you leave it blank.</p>
+
+      <form action="entry" method="post" id="short-diary">
+        <div class="field">
+          <p>The blurb can be a title or a short snippet of what best describes today.</p>
+          <label for="blurb">Blurb</label>
+          <input for="title" id="blurb" placeholder="What kind of day was it?"/>
+          <label for="DOTW">Day</label>
+          <input for="title" id="DOTW" placeholder="The day was?" />
+          <p>The stage is set. It is all yours. Take it away!</p>
+          <label for="entry">Speak on your mood.</label>
+          <input id="entry" name="text-entry" placeholder=" What are you feeling?"></input>
+        </div>
+        <button type="submit" class="buttonround" id="log-button">Log Entry</button>
+      <audio id="audio-Treasure" src="C:\Users\jesse\Downloads\sound fx\sound fx\zelda_chest.mp3">
+      </audio>
+      </form>
+    </section>
+
+    <section id="past-posts">
+      <h2 class="pptitle">Past Posts Previously Patched</h2>
+      <div class="search-wrapper">
+        <button id="searchBtn" class="audio-button-Search buttonround">
+          Search Your Feelings
+        </button>
+        <label for="search" id="search"></label>
+        <input type="text" id="searchBar" placeholder="...here..." />
+      </div>
+      <audio id="audio-Search" src="C:\Users\jesse\Downloads\sound fx\sound fx\search your feelings.mp3"></audio>
+
+      <p>
+        Feelings of fleeting Fridays from February. Sad songs and spring proms.
+        Rememeber and reminisce those long gone days that you might miss. Good
+        or bad. Mad or glad. Be grateful for the times you had.
+      
+      <br>
+      <br />
+      Past Posts
+      </p>
+      <div id="pastEntries"></div>
+      <div class="clear"></div>
+    </section>
+    <section id="about">
+      <div>
+        <h2>Founders of your daily mood tracker.</h2>
+        <p>Meet the team behind this project!</p>
+        <img src="Untitled_Artwork.png" id="teamPic">
+      </div>
+    </section>
+
+    <script type="text/javascript" src="./moods.js"></script>
+  </body>
+</html>
